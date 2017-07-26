@@ -1,14 +1,14 @@
 <?php
 /**
  * @link https://github.com/linpax/microphp-router-web
- * @copyright Copyright &copy; 2013 Oleg Lunegov
+ * @copyright Copyright &copy; 2017 Linpax
  * @license https://github.com/linpax/microphp-router-web/blob/master/LICENSE
  */
 
-namespace Micro\Roter\Web;
+namespace Micro\Router\Web;
 
 
-class Router
+class Router implements \Micro\Router\Router
 {
     /** @var array $routes routes for routing */
     public $routes = [];
